@@ -75,10 +75,13 @@ I blocchi sono elencati in ordine di "apparizione" nel file ```bootstrap-italia-
 | Block                                 | Descrizione           |
 | --------------------------------------|---------------------|
 | **{% block page_title %}**            | Tag <title> della pagina   |
-| **{% block page_meta_description %}**            | tag <meta-description> della pagina   |
+| **{% block page_meta_description %}** | tag <meta-description> della pagina   |
+| **{% block page_meta_keywords %}**    | tag <meta-keywords> della pagina   |
+| **{% block page_meta_robots %}**    | tag <meta-robots> della pagina   |
 | **{% block extra_head %}** | Extra CSS o Javascript   |
 | **{% block header_wrapper %}** | Intero blocco Header   |
 | **{% block header_slim_wrapper %}** | Striscia top in Header   |
+| **{% block header_center_wrapper_columns %}** | Classe per definizione colonne in griglia in "it-header-center-wrapper"   |
 | **{% block header_slim_top_left %}** | Striscia top left che avvolge header_slim_org_name  |
 | **{% block header_slim_org_name %}** | Nome organizzazione in Header top   |
 | **{% block header_slim_mobile_org_name %}** | Nome organizzazione in Header top (mobile)   |
@@ -87,6 +90,7 @@ I blocchi sono elencati in ordine di "apparizione" nel file ```bootstrap-italia-
 | **{% block header_slim_right_zone %}** | Area di destra in Header top   |
 | **{% block header_slim_sub_menu %}** | Sub-menu area di destra in Header top   |
 | **{% block header_slim_buttons %}** | Button area di destra in Header top   |
+| **{% block header_brand_wrapper %}** | Wrapper div del logo   |
 | **{% block header_center_logo %}** | Header logo principale  |
 | **{% block header_center_org_name %}** | Nome organizzazione principale in Header   |
 | **{% block header_center_org_subname %}** | Descrizione organizzazione in Header   |
